@@ -22,6 +22,9 @@ GitHub Repository Link:
 https://github.com/mabishaaaa/CSE425
 
 
+output:
+https://drive.google.com/drive/folders/1ukuuEtT52yYaC9l4T0s2pAQNU23vYT6z?usp=sharing
+
 
 ## 3. Dataset
 
@@ -102,9 +105,7 @@ Generated MIDI files are stored separately in Google Drive because the output fo
 
 Google Drive link for generated MIDI files:
 
-```text
-[PASTE_GOOGLE_DRIVE_MIDI_LINK_HERE](https://drive.google.com/drive/folders/1ukuuEtT52yYaC9l4T0s2pAQNU23vYT6z?usp=sharing)
-```
+https://drive.google.com/drive/folders/1ukuuEtT52yYaC9l4T0s2pAQNU23vYT6z?usp=sharing
 
 The Google Drive folder contains:
 
@@ -739,127 +740,6 @@ LaTeX source code for the IEEE-style project report.
 
 Compiled project report in PDF format.
 
----
-
-## 14.2 Code Files
-
-### `codes/eda.py`
-
-Performs exploratory data analysis on the MAESTRO dataset. It generates dataset plots such as split distribution, duration distribution, duration by split, and composer distribution.
-
-### `codes/task1.py`
-
-Main Task 1 implementation. It loads MAESTRO MIDI files, converts them into binary piano-roll windows, trains the LSTM Autoencoder, plots training and validation loss, and generates 5 MIDI samples.
-
-### `codes/task2.py`
-
-Main Task 2 implementation. It trains the Variational Autoencoder using reconstruction loss and KL divergence. It generates 8 VAE samples and 8 latent interpolation samples.
-
-### `codes/task3_transformer.py`
-
-Main Task 3 implementation. It converts MIDI into symbolic event tokens, trains an autoregressive Transformer, calculates perplexity, generates MIDI files, and compares results with baseline models.
-
-### `codes/task4_rlhf.py`
-
-Task 4 prototype preference-tuning implementation. It generates pretrained samples, uses a reward model, performs prototype reward-guided fine-tuning, and generates RLHF-style MIDI outputs.
-
-### `codes/baselines.py`
-
-Contains the Random Generator and Markov Chain baseline implementations.
-
-### `codes/run_baselines.py`
-
-Runs the baseline models and saves generated baseline MIDI files.
-
-### `codes/evaluate_all.py`
-
-Computes evaluation metrics such as pitch histogram similarity, rhythm diversity, repetition ratio, perplexity, and preference score.
-
-### `codes/generate.py`
-
-Generates MIDI files from the trained LSTM Autoencoder.
-
-### `codes/generate_vae.py`
-
-Generates MIDI files from the trained VAE.
-
-### `codes/generate_transformer.py`
-
-Generates MIDI files from the trained Transformer model.
-
-### `codes/generate_rlhf.py`
-
-Generates MIDI files from the prototype RLHF/preference-tuned model.
-
-### `codes/train.py`
-
-Training script for the modular LSTM Autoencoder version.
-
-### `codes/train_vae.py`
-
-Training script for the modular VAE version.
-
-### `codes/train_transformer.py`
-
-Training script for the modular Transformer version.
-
-### `codes/train_rlhf.py`
-
-Training script for the modular RLHF/prototype reward-tuning version.
-
-### `codes/reward_model.py`
-
-Defines the reward model architecture used in the preference-tuning stage.
-
-### `codes/train_reward_model.py`
-
-Trains the reward model using prepared feedback data.
-
-### `codes/prepare_feedback_data.py`
-
-Prepares feedback data for reward model training by converting MIDI files and ratings into training arrays.
-
----
-
-## 14.3 Plot Files
-
-### `plots/split_distribution.png`
-
-Shows the number of recordings in the train, validation, and test splits.
-
-### `plots/duration_histogram.png`
-
-Shows the overall duration distribution of MAESTRO recordings.
-
-### `plots/duration_by_split_boxplot.png`
-
-Shows duration distribution across train, validation, and test splits.
-
-### `plots/top_composers.png`
-
-Shows the most frequent composers in the MAESTRO dataset.
-
-### `plots/loss_curve_task1.png`
-
-Shows Task 1 LSTM Autoencoder training and validation loss.
-
-### `plots/loss_curve_task2.png`
-
-Shows Task 2 VAE total loss, reconstruction/KL loss, and KL annealing schedule.
-
-### `plots/metrics_task3.png`
-
-Shows Task 3 Transformer training/validation loss and perplexity.
-
-### `plots/comparison_task3.png`
-
-Compares Transformer output with Random Generator and Markov Chain baselines using rhythm diversity and repetition ratio.
-
-### `plots/rl_training_task4.png`
-
-Shows the prototype RLHF/preference-tuning reward progression.
-
----
 
 ## 15. How to Run the Project
 
@@ -1033,17 +913,8 @@ This project has several limitations:
 
 | Group Member | Contribution |
 |---|---|
-| GROUP_MEMBER_NAME_1 | EDA, preprocessing, report writing |
-| GROUP_MEMBER_NAME_2 | Task 1 LSTM Autoencoder implementation and generated MIDI outputs |
-| GROUP_MEMBER_NAME_3 | Task 2 VAE implementation and latent interpolation |
-| GROUP_MEMBER_NAME_4 | Task 3 Transformer implementation and perplexity evaluation |
-| GROUP_MEMBER_NAME_5 | Task 4 RLHF/prototype preference-tuning pipeline |
-| GROUP_MEMBER_NAME_6 | Baseline models and evaluation metrics |
-| GROUP_MEMBER_NAME_7 | Plot generation, MIDI organization, README, and presentation preparation |
-
-Replace the names above with actual group member names and final responsibilities.
-
----
+| Maliha Binte Shamim | EDA, preprocessing, report writing, Task 1 LSTM Autoencoder implementation and generated MIDI outputs, Task 2 VAE implementation and latent interpolation, Plot generation, MIDI organization, README, and presentation preparation |
+| Muntasrir Mahmud    | Task 3 Transformer implementation and perplexity evaluation, Task 4 RLHF/prototype preference-tuning pipeline,  Baseline models and evaluation metrics|
 
 ## 20. Presentation Notes
 
