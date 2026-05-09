@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large datasets
+maestro-v2.0.0/
+maestro-v3.0.0/
+*.zip
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+
+# Generated large outputs
+outputs/generated_midis/
+generated_midis/
+*.mid
+*.midi
+*.wav
+*.mp3
+
+# Mac system files
+.DS_Store
+
+# Logs
+*.log
