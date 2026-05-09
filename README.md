@@ -103,7 +103,7 @@ Generated MIDI files are stored separately in Google Drive because the output fo
 Google Drive link for generated MIDI files:
 
 ```text
-PASTE_GOOGLE_DRIVE_MIDI_LINK_HERE
+[PASTE_GOOGLE_DRIVE_MIDI_LINK_HERE](https://drive.google.com/drive/folders/1ukuuEtT52yYaC9l4T0s2pAQNU23vYT6z?usp=sharing)
 ```
 
 The Google Drive folder contains:
