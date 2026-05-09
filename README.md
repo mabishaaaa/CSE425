@@ -970,30 +970,6 @@ task4_rlhf_1.mid
 
 ---
 
-## 22. Final Submission Checklist
-
-Before submitting, make sure:
-
-```text
-[ ] GitHub repository is public
-[ ] README.md is complete
-[ ] README introduces each file clearly
-[ ] Dataset link is added
-[ ] Google Drive MIDI link is added
-[ ] Google Drive report link is added if needed
-[ ] Report includes the Google Drive MIDI link
-[ ] Groupmate contributions are listed
-[ ] Code files are commented
-[ ] Report PDF is included
-[ ] LaTeX source is included
-[ ] Plots are included
-[ ] Full MAESTRO dataset is not uploaded
-[ ] Virtual environment is not uploaded
-[ ] Large model weights are not uploaded unless required
-[ ] Generated MIDI files are shared through Google Drive
-```
-
----
 
 ## 23. License / Academic Use
 
