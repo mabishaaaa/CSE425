@@ -23,11 +23,17 @@ https://github.com/mabishaaaa/CSE425
 
 
 output:
+
 https://drive.google.com/drive/folders/1ukuuEtT52yYaC9l4T0s2pAQNU23vYT6z?usp=sharing
 
 presentation:
 
 https://drive.google.com/drive/folders/1Q1GQRYgEbJoPbfjIOsF46y9EVG4dFiA8?usp=sharing
+
+
+report:
+
+https://drive.google.com/drive/folders/1aJI1Oa3_XrA1j2Ap23Yj9m3TZ7RhpAUQ?usp=sharing
 
 ## 3. Dataset
 
